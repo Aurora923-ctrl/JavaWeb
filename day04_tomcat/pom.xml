@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>edu.biwu</groupId>
-        <artifactId>javaWebLearning</artifactId>
+        <artifactId>JavaWeb</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>day04-tomcat</artifactId>
+    <artifactId>day04_tomcat</artifactId>
     <packaging>war</packaging>
-    <name>day04-tomcat Maven Webapp</name>
+    <name>day04_tomcat Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -19,6 +19,6 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>day04-tomcat</finalName>
+        <finalName>day04_tomcat</finalName>
     </build>
 </project>
