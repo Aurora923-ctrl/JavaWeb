@@ -1,0 +1,57 @@
+GET http://localhost:8080/day05-servlet/demo01
+
+
+###
+
+GET http://localhost:8080/day05-servlet/demo02
+
+###
+
+GET http://localhost:8080/day05-servlet/demo03
+
+###
+
+GET http://localhost:8080/day05-servlet/demo04
+
+
+###
+
+POST http://localhost:8080/day05-servlet/demo04
+
+
+###
+
+GET http://localhost:8080/day05-servlet/demo05
+
+###
+
+GET http://localhost:8080/day05-servlet/demo005
+
+
+###
+
+POST http://localhost:8080/day05-servlet/demo005
+
+###
+
+GET http://localhost:8080/day05-servlet/config01
+
+###
+
+GET http://localhost:8080/day05-servlet/config02
+
+###
+
+GET http://localhost:8080/day05-servlet/context01
+
+###
+
+GET http://localhost:8080/day05-servlet/context02
+
+###
+
+GET http://localhost:8080/day05-servlet/context03
+
+###
+
+GET http://localhost:8080/day05-servlet/context04

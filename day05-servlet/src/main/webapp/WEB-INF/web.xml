@@ -1,0 +1,80 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <!--配置servlet名称-->
+    <servlet-name>ServletDemo01</servlet-name>
+    <!--配置ServletDemo01这个名称对应的java类-->
+    <servlet-class>edu.biwu.ServletDemo01</servlet-class>
+  </servlet>
+
+  <servlet>
+    <!--配置servlet名称-->
+    <servlet-name>ServletDemo02</servlet-name>
+    <!--配置ServletDemo01这个名称对应的java类-->
+    <servlet-class>edu.biwu.ServletDemo02</servlet-class>
+  </servlet>
+
+  <servlet>
+    <!--配置servlet名称-->
+    <servlet-name>ServletDemo03</servlet-name>
+    <!--配置ServletDemo01这个名称对应的java类-->
+    <servlet-class>edu.biwu.ServletDemo03</servlet-class>
+  </servlet>
+
+  <servlet>
+    <!--配置servlet名称-->
+    <servlet-name>ServletDemo04</servlet-name>
+    <!--配置ServletDemo01这个名称对应的java类-->
+    <servlet-class>edu.biwu.ServletDemo04</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ServletConfigDemo01</servlet-name>
+    <servlet-class>edu.biwu.ServletConfigDemo01</servlet-class>
+    <!--在这个Servlet中配置一些初始化参数-->
+    <init-param>
+      <param-name>charset</param-name>
+      <param-value>UTF-8</param-value>
+    </init-param>
+  </servlet>
+
+
+  <servlet-mapping>
+    <!--配置servlet名称,与上面保持一致-->
+    <servlet-name>ServletDemo01</servlet-name>
+    <!--配置servlet访问路径-->
+    <url-pattern>/demo01</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <!--配置servlet名称,与上面保持一致-->
+    <servlet-name>ServletDemo02</servlet-name>
+    <!--配置servlet访问路径-->
+    <url-pattern>/demo02</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <!--配置servlet名称,与上面保持一致-->
+    <servlet-name>ServletDemo03</servlet-name>
+    <!--配置servlet访问路径-->
+    <url-pattern>/demo03</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <!--配置servlet名称,与上面保持一致-->
+    <servlet-name>ServletDemo04</servlet-name>
+    <!--配置servlet访问路径-->
+    <url-pattern>/demo04</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ServletConfigDemo01</servlet-name>
+    <url-pattern>/config01</url-pattern>
+  </servlet-mapping>
+
+</web-app>
