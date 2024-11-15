@@ -1,0 +1,17 @@
+POST localhost:8080/day06-response-request/req/demo01
+
+###
+
+GET localhost:8080/day06-response-request/req/demo02
+
+
+###
+GET localhost:8080/day06-response-request/req/demo04?username=你好
+
+
+###
+
+POST localhost:8080/day06-response-request/req/demo04
+Content-Type: application/x-www-form-urlencoded
+
+username=你好
