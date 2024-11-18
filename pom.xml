@@ -9,7 +9,8 @@
       <module>day05-servlet</module>
       <module>day06-response-request</module>
       <module>day07-cookie-session</module>
-      <module>day08-filter-listener</module>
+      <module>new</module>
+      <module>untitled</module>
   </modules>
   <version>1.0-SNAPSHOT</version>
   <name>JavaWeb Maven Webapp</name>
