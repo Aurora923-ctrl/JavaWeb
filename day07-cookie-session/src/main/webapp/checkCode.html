@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>校验验证码</title>
+        <script>
+            function changeCode() {
+                var imgEle = document.getElementById("code");
+                //getTime()获取自1970年1月1日0时0分0秒到现在系统时间毫秒值
+                //每次点击图片我们请求的链接都不同,浏览器就不再访问缓存,而是每次请求都回去请求服务端的servlet
+                imgEle.src = "/day07-cookie-session/generateCode?time=" + new Date().getTime();
+            }
+        </script>
+    </head>
+    <body>
+        <form action="/day07-cookie-session/checkCode" method="post">
+            <input type="text" name="randomCode"/>
+            <img src="/day07-cookie-session/generateCode" onclick="changeCode()" id="code"><br/>
+            <!--通过img标签的src属性请求一个servlet,这个servlet就会生成验证码图片-->
+            <input type="submit" value="提交"/>
+        </form>
+    </body>
+</html>
