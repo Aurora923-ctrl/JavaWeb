@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/day05-servlet-login/pom.xml" />
+        <option value="$PROJECT_DIR$/day08-auto-login/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
